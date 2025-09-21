@@ -118,6 +118,7 @@ DB_PASSWORD=your-db-password
 
 > Убедитесь, что ваш GitHub Token имеет права `write:packages`, `read:packages` и `repo`.
 
+
 ---
 
 ### 6. Запустите Jenkins
