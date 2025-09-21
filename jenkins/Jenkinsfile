@@ -54,7 +54,7 @@ pipeline {
         stage('Install PostgreSQL to TEST') {
             steps {
                 sh """
-                helm repo add bitnami https://charts.bitnami.com/bitnami
+                helm repo add bitnami https://raw.githubusercontent.com/bitnami/charts/refs/heads/archive-full-index/bitnami/
                 helm repo update
 
                 helm upgrade --install postgres bitnami/postgresql \\
